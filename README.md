@@ -1,2 +1,2 @@
 # COVID19-modeling
-This project is about model different scenarios of covid 19 in Norway.
+This project is about modeling of different scenarios of covid19 in Norway.
