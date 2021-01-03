@@ -1,17 +1,7 @@
 import numpy as np
 
 class ODESolver:
-    """
-    Superclass for numerical methods solving scalar and vector ODEs
-
-      du/dt = f(u, t)
-
-    Attributes:
-    t: array of time values
-    u: array of solution values (at time points t)
-    k: step number of the most recently computed solution
-    f: callable object implementing f(u, t)
-    """
+   
     def __init__(self, f):
         if not callable(f):
             raise TypeError('f is %s, not a function' % type(f))
